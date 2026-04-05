@@ -1,4 +1,4 @@
-apt install wget unzip glslang-tools zstd python3 python3-pip -y
+sudo apt install wget unzip glslang-tools zstd python3 python3-pip -y
 pip install meson ninja 
 
 WORKDIR=$(pwd)
