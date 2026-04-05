@@ -1,4 +1,5 @@
-apt install wget unzip glslang-tools meson zstd -y
+apt install wget unzip glslang-tools zstd python3 python3-pip -y
+pip install meson ninja 
 
 WORKDIR=$(pwd)
 wget https://github.com/bylaws/llvm-mingw/releases/download/20250920/llvm-mingw-20250920-ucrt-ubuntu-22.04-x86_64.tar.xz
