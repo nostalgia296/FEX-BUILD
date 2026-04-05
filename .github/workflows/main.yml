@@ -19,4 +19,5 @@ jobs:
         tag_name: FEX
         name: FEX BUILD
         files: |
-           /tmp/FEX/**
+           /usr/lib/wine/aarch64-windows/libarm64ecfex.dll
+           /usr/lib/wine/aarch64-windows/libwow64fex.dll
