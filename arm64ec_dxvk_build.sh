@@ -24,7 +24,7 @@ cpu = 'aarch64'
 endian = 'little'
 EOF
 
-meson setup arm64ec-build -Db_ndebug=if-release --cross-file "./build-arm64ec.txt" --buildtype "release" --prefix "/tmp/dxvk" --libdir "arm64ec" --strip 
+meson setup arm64ec-build -Db_ndebug=if-release --cross-file "./build-arm64ec.txt" --buildtype "release" --prefix "/tmp/dxvk" --libdir "arm64ec" --bindir "arm64ec" --strip 
 
 cd arm64ec-build
 ninja
